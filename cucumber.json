@@ -1,0 +1,13 @@
+{
+    "default": {
+        "formatOptions": {
+            "snippetInterface": "synchronous"
+        },
+        "paths": [
+            "bdd/**/*.feature"
+        ],
+        "require": [
+            "bdd/**/*.steps.ts"
+        ]
+    }
+}

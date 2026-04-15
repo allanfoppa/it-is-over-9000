@@ -28,4 +28,12 @@ To create a practical environment for validating:
 
 ---
 
+## Acknowledgments
+
+A thanks to the developers of the **Dragon Ball API** for providing the data and assets.
+
+* **API Source:** [Dragon Ball API](https://web.dragonball-api.com/)
+
+---
+
 🔥 *Because every test suite should be... over 9000.*

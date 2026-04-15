@@ -8,10 +8,11 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "test:jest": "jest",
+    "test:jest:watch": "jest --watch",
+    "test:cypress:open": "cypress open",
+    "test:cypress:run": "cypress run",
+    "test:cucumber": "cucumber-js"
   },
   "dependencies": {
     "react": "^19.2.4",
@@ -20,6 +21,7 @@
     "styled-components": "^6.4.0"
   },
   "devDependencies": {
+    "@cucumber/cucumber": "^12.8.1",
     "@eslint/js": "^9.39.4",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
