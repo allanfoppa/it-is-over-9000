@@ -1,7 +1,13 @@
-import "@testing-library/jest-dom";
+import type { Config } from 'jest';
 
-export default {
-  preset: "ts-jest",
-  testEnvironment: "jsdom",
-  setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
+const config: Config = {
+  preset: 'ts-jest',
+  testEnvironment: 'node',
+  globals: {
+    'ts-jest': {
+      tsconfig: 'jest/tsconfig.jest.json',
+    },
+  },
 };
+
+export default config;

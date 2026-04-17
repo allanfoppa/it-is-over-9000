@@ -136,7 +136,7 @@ const CharacterDetailContent = ({ fetchPromise }: { fetchPromise: Promise<IChara
   }
 
   return (
-    <DetailCard>
+    <DetailCard data-testid="character-detail">
       <ImageSection>
         <img src={character.image} alt={character.name} />
       </ImageSection>

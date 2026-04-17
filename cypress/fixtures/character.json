@@ -1,0 +1,19 @@
+{
+  "id": 10,
+  "name": "Gohan",
+  "ki": "45.000.000",
+  "maxKi": "40 septillion",
+  "race": "Saiyan",
+  "gender": "Male",
+  "description": "Son of Goku and Chi-Chi. A hybrid Saiyan with great potential.",
+  "image": "https://dragonball-api.com/characters/gohan.webp",
+  "affiliation": "Z Fighter",
+  "originPlanet": {
+    "id": 2,
+    "name": "Earth",
+    "isDestroyed": false,
+    "description": "The home planet of humans.",
+    "image": "https://dragonball-api.com/planetas/Tierra_Dragon.webp"
+  },
+  "transformations": []
+}

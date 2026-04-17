@@ -54,18 +54,22 @@ export const Pagination = ({ currentPage, totalPages, onPageChange }: Pagination
     <button
       disabled={currentPage === 1}
       onClick={() => onPageChange(1)}
+      data-testid="first-page"
     >First</button>
     <button
       disabled={currentPage === 1}
       onClick={() => onPageChange(currentPage - 1)}
+      data-testid="prev-page"
     >Prev</button>
     <button
       disabled={currentPage === totalPages}
       onClick={() => onPageChange(currentPage + 1)}
+      data-testid="next-page"
     >Next</button>
     <button
       disabled={currentPage === totalPages}
       onClick={() => onPageChange(totalPages)}
+      data-testid="last-page"
     >Last</button>
   </Container>
 );

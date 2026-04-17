@@ -1,4 +1,4 @@
-Feature: Init App
+Feature: Home Page
   As a user
   I want to see a list of characters
   So that I can explore the Dragon Ball universe
