@@ -14,10 +14,6 @@ This project is a test-focused application built to explore different testing st
 * **Jest** for correctness and contract testing
 * **Cypress** for behavior and end-to-end testing
 
-## AI Contribution
-
-The **frontend design and UI implementation** were generated with the help of AI.
-
 ## Testing Ownership
 
 All **testing architecture, strategies, and implementations** are designed and developed manually, focusing on real-world QA practices.
@@ -34,9 +30,10 @@ To create a practical environment for validating:
 
 ## Acknowledgments
 
-A thanks to the developers of the **Dragon Ball API** for providing the data and assets.
+A huge thanks to the resources and tools that made this project possible:
 
-* **API Source:** [Dragon Ball API](https://web.dragonball-api.com/)
+- **API Source:** [Dragon Ball API](https://web.dragonball-api.com/) for providing the incredible data and assets.
+- **Logo & AI Visuals:** Generated with the assistance of **Gemini (Google AI)**.
 
 ---
 
