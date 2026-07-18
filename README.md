@@ -1,5 +1,9 @@
 # IT'S OVER 9000
 
+<p align="center">
+  <img src="./src/assets/images/logo.png" alt="It's over 9000 Logo" width="400" />
+</p>
+
 A Dragon Ball–themed QA playground powered by a public API.
 
 ## ABOUT
